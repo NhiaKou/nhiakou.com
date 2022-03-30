@@ -53,6 +53,7 @@ main section:nth-of-type(2) {
 
 main section article {
     text-align: center;
+    width: 100%;
 }
 
 main section:nth-of-type(3) {
