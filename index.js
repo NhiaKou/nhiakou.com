@@ -1,14 +1,16 @@
-// console.log("hello world")
+import "./components/sw-header/element.mjs";
 
-function updateLanguage(event) {
-    //console.log(event.target.value)
-    // url: hmong.html
-    // document.location = event.target.value + ".html"
-    document.location = event.target.value
-}
+import "./components/sw-main/sw-curriculum/element.mjs";
+import "./components/sw-main/sw-podcast/element.mjs";
+import "./components/sw-main/sw-quiz/element.mjs";
+import "./components/sw-main/sw-code/element.mjs";
+import "./components/sw-main/sw-cohort/element.mjs";
+import "./components/sw-main/sw-coupon/element.mjs";
+import "./components/sw-main/element.mjs";
+
+import "./components/sw-footer/element.mjs";
 
 window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H8014FQBCT');
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-H8014FQBCT');
