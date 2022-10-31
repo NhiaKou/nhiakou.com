@@ -16,8 +16,8 @@ template.innerHTML = `
                 <li>
                     <h3>Stores</h3>
                     <div>
-                        <a href="#backend-cohort"><button>333.eco</button></a>
-                        <h4>Shoppers / Buyers</h4>
+                        <a><button>Find</button></a>
+                        <!--<h4>Shoppers / Buyers</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
                             <li><a>Read Textbook on Medium</a></li>
@@ -35,7 +35,7 @@ template.innerHTML = `
                             <li><a href="#ios-code">Interactive Coding Exercises</a></li>
                             <li><a>Remote Pair Programming on Discord</a></li>
                             <li><a>Students' Solo Projects on GitHub</a></li>
-                        </menu>
+                        </menu>-->
                     </div>
                 </li>
             </ul>
@@ -43,8 +43,8 @@ template.innerHTML = `
                 <li>
                     <h3>Orchards</h3>
                     <div>
-                        <a href="#coupon"><button>Kiitos.Earth</button></a>
-                        <h4>Decentralized Family Farms</h4>
+                        <a><button>Grow</button></a>
+                        <!--<h4>Decentralized Family Farms</h4>
                         <menu>
                             <li><a>Smart Recommendations</a></li>
                             <li><a>Zero Waste</a></li>
@@ -53,13 +53,13 @@ template.innerHTML = `
                         <menu>
                             <li><a>#Grow-a-Thon</a></li>
                             <li><a>Certified Local</a></li>
-                        </menu>
+                        </menu>-->
                     </div>
                 </li>
             </ul>
         </nav>
         <aside>
-            <select onchange="changeLanguage(event)">
+            <select onchange="this.getRootNode().host.changeCountry(event)">
                 <option value="kh">Cambodia</option>
                 <option value="ua" disabled>Ukraine</option>
                 <option value="us" disabled>United States</option>
