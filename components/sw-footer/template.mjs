@@ -20,7 +20,7 @@ template.innerHTML = `
                 </ul>
                 <h5>Contact</h5>
                 <ul>
-                    <li><a href="mailto:market@nhiakou.org">market@nhiakou.org</a></li>
+                    <li><a href="mailto:orchard@nhiakou.org">orchard@nhiakou.org</a></li>
                 </ul>
             </section>
             <section>
@@ -33,7 +33,7 @@ template.innerHTML = `
             </section>
         </main>
         <footer>
-            <small><a href="https://nhiakou.com">Nhia Kou</a> &copy; 2023</small>
+            <small><a href="https://nhiakou.com">Nhia Kou Market</a> &copy; 2023</small>
         </footer>
     </nav>
 `;
