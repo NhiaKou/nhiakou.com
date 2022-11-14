@@ -3,7 +3,7 @@ const template = document.createElement("template");
 // Reference: https://codepen.io/uiswarup/pen/MWWNOjo?editors=0110
 
 template.innerHTML = `
-    <link rel="stylesheet" href="components/sw-main/shadow.css">
+    <link rel="stylesheet" href="components/nk-main/shadow.css">
     <slot></slot>
     <svg viewBox="0 0 1006 830" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="undraw_Tree_swing_646s 1" clip-path="url(#clip0)">
