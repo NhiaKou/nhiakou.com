@@ -26,7 +26,7 @@ template.innerHTML = `
             </section>
             <section>
                 <div>
-                    <h5>Connect</h5>
+                    <h5>Follow</h5>
                     <ul>
                         <li><a href="https://me.thonly.net/#NhiaKou">THonly</a></li>
                         <li><a href="https://www.facebook.com/NhiaKou-101382402038310">Facebook</a></li>
