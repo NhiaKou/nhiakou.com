@@ -4,7 +4,18 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="components/nk-main/shadow.css">
-    <slot></slot>
+    <header>
+        <h1>Currently in stealth development...</h1>
+        <br>
+        <a><button></button></a>
+    </header>
+    <main>
+        <tl-kiitos></tl-kiitos>
+    </main>
+    <footer>
+        <!--<tl-robot></tl-robot>-->
+    </footer>
+    
     <svg viewBox="0 0 1006 830" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="undraw_Tree_swing_646s 1" clip-path="url(#clip0)">
         <path id="Vector" d="M462.918 28.5253C463.527 29.9749 463.981 31.4902 464.271 33.0436C463.612 30.674 463.095 29.0655 462.918 28.5253Z" fill="#3F3D56"/>
