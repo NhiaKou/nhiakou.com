@@ -23,12 +23,12 @@ class NkMain extends HTMLElement {
         if (page) {
             this.shadowRoot.querySelector('tl-kiitos').render(kiitos[page]);
             this.shadowRoot.querySelector('main').style.display = 'block';
+            this.shadowRoot.querySelector('footer').style.display = 'block';
         } else {
             const a = this.shadowRoot.querySelector('a');
             a.href = "https://www.facebook.com/NhiaKou-101382402038310";
             a.firstElementChild.innerHTML = "<b>Follow</b> for real-time updates!";
             this.shadowRoot.querySelector('header').style.display = 'block';
-            this.shadowRoot.querySelector('footer').style.display = 'block';
         }
         
         this.style.display = 'block';
