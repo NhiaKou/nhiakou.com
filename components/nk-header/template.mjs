@@ -7,7 +7,7 @@ template.innerHTML = `
     <header>
         <section>
             <a href="#"><figure>🌳</figure></a>
-            <h1>Nhia Kou Orchard</h1>
+            <h1>Nhia Kou Vendors</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -16,53 +16,23 @@ template.innerHTML = `
         <div>
             <ul>
                 <li>
-                    <h3>Veggie Seed Bank</h3>
+                    <h3>Mobile Food Vendors</h3>
                     <nav>
-                        <a><button>Free Delivery</button></a>
-                        <!--<h4>Learn Horticulture</h4>
+                        <a><button>Cyclo Taxi</button></a>
+                        <h4>By Cart</h4>
                         <menu>
-                            <li><a>Smart Recommendations</a></li>
-                            <li><a>Zero Waste</a></li>
+                            <li><a>Profitable Recipes</a></li>
                         </menu>
-                        <h4>Vendors / Sellers</h4>
+                        <h4>By Boat</h4>
                         <menu>
-                            <li><a>#Grow-a-Thon</a></li>
-                            <li><a>Certified Local</a></li>
-                        </menu>-->
+                            <li><a>Profitable Recipes</a></li>
+                        </menu>
                     </nav>
                 </li>
                 <li>
-                    <h3>Fruit Tree Nursury</h3>
+                    <h3>App</h3>
                     <nav>
-                        <a><button>Grow-a-Thon</button></a>
-                        <!--<h4>Learn Arboriculture</h4>
-                        <menu>
-                            <li><a>Smart Recommendations</a></li>
-                            <li><a>Zero Waste</a></li>
-                        </menu>
-                        <h4>Vendors / Sellers</h4>
-                        <menu>
-                            <li><a>#Grow-a-Thon</a></li>
-                            <li><a>Certified Local</a></li>
-                        </menu>-->
-                    </nav>
-                </li>
-                <li>
-                    <h3>Homesteads</h3>
-                    <nav>
-                        <a><button>Apply</button></a>
-                        <!--<h4>Decentralized Family Farms</h4>
-                        <menu>
-                            <li><a>Smart Recommendations</a></li>
-                            <li><a>Zero Waste</a></li>
-                        </menu>
-                        <h4>Vendors / Sellers</h4>
-                        Learn Agriculture
-                        Add SW Campus?
-                        <menu>
-                            <li><a>#Grow-a-Thon</a></li>
-                            <li><a>Certified Local</a></li>
-                        </menu>-->
+                        <a><button>Download</button></a>
                     </nav>
                 </li>
             </ul>
