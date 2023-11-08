@@ -1,4 +1,4 @@
-import { ORCHARDS as ORIGIN, THONLY } from "https://thonly.org/global.mjs";
+import { NK_FOUNDATION as ORIGIN, THONLY } from "https://thonly.org/global.mjs";
 const template = document.createElement("template");
 
 template.innerHTML = `
