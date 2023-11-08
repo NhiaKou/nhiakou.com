@@ -42,7 +42,7 @@ template.innerHTML = `
             </section>
         </main>
         <footer>
-            <small><a href="https://nhiakou.org">Nhia Kou Foundation</a> &copy; 2023</small>
+            <small><a href="https://nhiakou.org">Nhia Kou LLC</a> &copy; 2023</small>
         </footer>
     </nav>
 `;

@@ -7,7 +7,7 @@ template.innerHTML = `
     <header>
         <section>
             <a href="#"><figure>🌳</figure></a>
-            <h1>Nhia Kou Virtual Office</h1>
+            <h1>Nhia Kou Real Estate</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -16,6 +16,45 @@ template.innerHTML = `
         <div>
             <ul>
                 <li>
+                    <h3>Company Creation</h3>
+                    <nav>
+                        <menu>
+                            <li><a>LLC Formation</a></li>
+                            <li><a>S-Corp Tax Election</a></li>
+                            <li><a>Business Bank Account</a></li>
+                        </menu>
+                    </nav>
+                </li>
+                <li>
+                    <h3>Property Management</h3>
+                    <nav>
+                        <menu>
+                            <li><a>Airbnb</a></li>
+                            <li><a>Rental</a></li>
+                        </menu>
+                    </nav>
+                </li>
+                <li>
+                    <h3>Agent Services</h3>
+                    <nav>
+                        <menu>
+                            <li><a>Property Taxes</a></li>
+                            <li><a>Corporate Taxes</a></li>
+                            <li><a>Business Filings</a></li>
+                        </menu>
+                    </nav>
+                </li>
+                <li>
+                    <h3>Trustee Services</h3>
+                    <nav>
+                        <menu>
+                            <li><a>Company Estates</a></li>
+                            <li><a>Personal Properties</a></li>
+                            <li><a>Life Insurance</a></li>
+                        </menu>
+                    </nav>
+                </li>
+                <!--<li>
                     <h3>Mobile Food Vendors</h3>
                     <nav>
                         <a><button>Cyclo Taxi</button></a>
@@ -34,14 +73,14 @@ template.innerHTML = `
                     <nav>
                         <a><button>Download</button></a>
                     </nav>
-                </li>
+                </li>-->
             </ul>
         </div>
         <aside>
             <select onchange="this.getRootNode().host.changeCountry(event)">
-                <option value="kh" selected>Cambodia</option>
-                <option value="ua" disabled>Ukraine</option>
-                <option value="us" disabled>United States</option>
+                <option value="us" selected>United States</option>
+                <option value="ua" disabled>Laos</option>
+                <option value="kh" disabled>Cambodia</option>
             </select>
         </aside>
     </header>
