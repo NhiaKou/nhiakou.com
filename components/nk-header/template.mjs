@@ -6,7 +6,7 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/nk-header/shadow.css">
     <header>
         <section>
-            <a href="#"><figure>🌳</figure></a>
+            <a href="#"><figure>🏪</figure></a>
             <h1>Nhia Kou Real Estate</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
